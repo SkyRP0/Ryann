@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    background: darkgoldenrod;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+header img{
+    width: 200px;
+    margin-left: 45%;
+    margin-top: 1%;
+    border-radius: 100%;
+
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma,
+     sans-serif;
+     font-size: 2em;
+}
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma,
+     sans-serif;
+     font-size: 1em;
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+article{
+    padding: 20px 0 20px 0;
+    border-bottom: 1px dotted darkgoldenrod;
+}
+article h2{
+    float: left;
+    border-bottom: 2px solid darkgoldenrod;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+article p{
+    margin-left: 20%;
+}
+article p, article ul{
+    margin-left: 50%;
+    font-family: Verdana, Geneva, Tahoma, 
+    sans-serif;
+    color: darkgoldenrod;
+    line-height: 1.3em;
+    margin-bottom: 1.6em;
+}
+article ul li{
+    margin-left: 15px;
+    list-style: square;
+}
+footer{
+    margin-top: 2em;
+    padding: 1em;
+    width: 100%;
+    background: darkgoldenrod;
+    color: white;
+    text-align: center;
+}
+footer a:link, footer a:visited{
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
+}
